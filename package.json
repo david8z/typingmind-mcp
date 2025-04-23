@@ -1,0 +1,12 @@
+{
+  "name": "typingmind-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for TypingMind",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @typingmind/mcp $MCP_KEY"
+  },
+  "dependencies": {
+    "@typingmind/mcp": "latest"
+  }
+}
